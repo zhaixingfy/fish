@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=600, user-scalable=no">
+  <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
+  <title>捕鱼达人-田味咸鱼</title>
+  <style>
+    * {padding: 0; margin: 0; font: inherit; box-sizing: border-box;}
+    html, body {height: 100%; font-size: 14px; overflow: hidden;}
+    body {background: #000; overflow: hidden; -webkit-user-select: none;}
+    a {color: inherit; text-decoration: none;}
+    a.github {color: #09f; margin-top: 5px; display: inline-block;}
+
+    .c {text-align: center;}
+
+    #canvas {width: 100%; height: 100%; vertical-align: top; background: url(./img/bg.jpg) no-repeat center / cover; -webkit-user-select: none; -webkit-user-select: none;}
+    #log-wrapper {position: absolute; left: 50%; top: 0; padding: 10px 20px; border-radius: 0 0 20px 20px; background: rgba(0, 0, 0, .75); color: #fff; transform: translate(-50%, 0); white-space: nowrap; font-family: sans-serif; text-align: center;}
+  </style>
+</head>
+<body>
+
+<canvas id="canvas"></canvas>
+<div id="log-wrapper">
+  <div id="log">fps</div>
+  <div class="c">
+    <a class="github" target="_blank" href="https://github.com/tianxiaohao1/fish/">https://github.com/tianxiaohao1/fish/</a>
+  </div>
+</div>
+
+<script src="./js/app-aux.js"></script>
+<script src="./js/p-list.js"></script>
+<script src="./js/Sprite.class.js"></script>
+<script src="./js/Fish.class.js"></script>
+<script src="./js/Bullet.class.js"></script>
+<script src="./js/Net.class.js"></script>
+<script src="./js/Coin.class.js"></script>
+<script src="./js/CoinText.class.js"></script>
+<script src="./js/Cannon.class.js"></script>
+<script src="./js/Scene.class.js"></script>
+<script src="./js/game.js"></script>
+
+</body>
+</html>
